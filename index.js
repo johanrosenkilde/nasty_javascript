@@ -13,7 +13,8 @@ function thumbsUp() {
 }
 
 /**
- * Reverse-polish naming of a function
+ * Reverse-polish naming of an anonymous function.
+ * Very fancy and modern.
  */
 addThree = function (x) {
     return x+3;
