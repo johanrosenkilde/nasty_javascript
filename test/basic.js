@@ -8,5 +8,6 @@ tap.equal(clamp(5, 0, 10), 5);
 tap.equal(clamp(0, 5, 10), 5);
 tap.equal(addThree(5), 8);
 tap.equal(addThree(-2), 1);
+tap.equal(thumbsUp(), '\u{1F44D}');
 tap.equal(mystery(5), "a");
 tap.equal(mystery(-2), "a");
