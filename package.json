@@ -7,12 +7,12 @@
     "test": "test"
   },
   "scripts": {
-    "test": "tap --coverage-report=json",
-    "recreate-report": "npm test && sed -i 's#\"[^\"]*/integration-tests/files/index.js\"#\"__filename\"#g' coverage/coverage-final.json"
+    "test": "tap --coverage-report=json"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "nyc": "^14.1.1",
     "tap": "^14.11.0"
   }
 }
