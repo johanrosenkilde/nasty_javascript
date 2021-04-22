@@ -27,3 +27,4 @@ mystery = function (x) {
 module.exports.clamp = clamp;
 module.exports.thumbsUp = thumbsUp;
 module.exports.addThree = addThree;
+module.exports.mystery = mystery;
