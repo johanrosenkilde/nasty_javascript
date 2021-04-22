@@ -1,0 +1,18 @@
+{
+  "name": "nasty_javascript",
+  "version": "0.0.0",
+  "description": "Dummy project displaying JavaScript syntax.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tap --coverage-report=json",
+    "recreate-report": "npm test && sed -i 's#\"[^\"]*/integration-tests/files/index.js\"#\"__filename\"#g' coverage/coverage-final.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tap": "^14.11.0"
+  }
+}
