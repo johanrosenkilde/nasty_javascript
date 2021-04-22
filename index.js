@@ -19,6 +19,11 @@ addThree = function (x) {
     return x+3;
 }
 
+/** This is function whose purpose is mysterious */
+mystery = function (x) {
+    return "a";
+}
+
 module.exports.clamp = clamp;
 module.exports.thumbsUp = thumbsUp;
 module.exports.addThree = addThree;
